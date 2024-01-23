@@ -52,37 +52,55 @@ Git Policies to do in this project:
 To Establish Connection to Git Remote:
 
 ```bash
+# Do this first before proceeding
 git remote add origin https://github.com/Kkura02/weather_app_nextjs
 ```
 
-To Pull from Git Repo:
+    To Pull from Git Repo:
 
-```bash
-# Establish connection first to Git Remote
+    ```bash
 
-git pull origin master
-```
 
-To Pull from Git Repo, but from another branch:
+    git pull origin master
+    ```
 
-```bash
-git pull origin <branch-name>
+    To Pull from Git Repo, but from another branch:
 
-# if unsure of names, list branch names
-git branch
-```
+    ```bash
+    git pull origin <branch-name>
 
-To copy a branch to another branch:
+    # if unsure of names, list branch names
+    git branch
+    ```
 
-```bash
-git pull origin <src>:<dest>
-```
+    To copy a branch to another branch:
 
-To create a new branch:
+    ```bash
+    git pull origin <src>:<dest>
+    ```
 
-```bash
-git branch <branch-name>
+    To create a new branch:
 
-# push that new branch to the remote repo:
-git push origin <branch-name>
-```
+    ```bash
+    git branch <branch-name>
+
+    # push that new branch to the remote repo:
+    git push origin <branch-name>
+    ```
+
+
+
+
+    To Push your changes to Git Repo[WARNING ALWAYS PUSH ON DEV branch ONLY]
+
+    ```bash
+    # first add the files that you made changes with
+    # example
+    git add Readme.md ./app/page.tsx
+
+    # commit the changes with description
+    git commit -m "your message"
+
+    # push your changes to dev, only to dev!
+    git push origin dev
+    ```
