@@ -44,3 +44,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Git Guides
+
+Git Policies to do in this project:
+
+To Establish Connection to Git Remote:
+
+```bash
+git remote add origin https://github.com/Kkura02/weather_app_nextjs
+```
+
+To Pull from Git Repo:
+
+```bash
+# Establish connection first to Git Remote
+
+git pull origin master
+```
+
+To Pull from Git Repo, but from another branch:
+
+```bash
+git pull origin <branch-name>
+
+# if unsure of names, list branch names
+git branch
+```
