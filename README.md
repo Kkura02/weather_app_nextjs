@@ -71,3 +71,18 @@ git pull origin <branch-name>
 # if unsure of names, list branch names
 git branch
 ```
+
+To copy a branch to another branch:
+
+```bash
+git pull origin <src>:<dest>
+```
+
+To create a new branch:
+
+```bash
+git branch <branch-name>
+
+# push that new branch to the remote repo:
+git push origin <branch-name>
+```
