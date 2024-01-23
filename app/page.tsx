@@ -8,6 +8,5 @@ import WeatherShow from "@/app/components/WeatherShow";
 export default function Home() {
   // Add here the fetch API code
   const [onSearch, setOnSearch] = useState(true);
-  return;
-  <main>{onSearch ? <SearchCityForm /> : <WeatherShow />}</main>;
+  return <main>{onSearch ? <SearchCityForm /> : <WeatherShow />}</main>;
 }

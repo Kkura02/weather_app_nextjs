@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To Initialize/Clone this project:
+
+```bash
+git clone https://github.com/Kkura02/weather_app_nextjs
+# go to the folder:
+cd weather_app_nextjs
+# install the npm packages
+npm install
+```
+
+Try First, run the development server:
 
 ```bash
 npm run dev
